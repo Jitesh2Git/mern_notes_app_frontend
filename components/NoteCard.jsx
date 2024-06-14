@@ -34,7 +34,7 @@ const NoteCard = ({
       <p className="text-xs font-medium text-slate-600 mt-2">
         {content?.slice(0, 60)}
       </p>
-      <div className="flex items-center justify-between mt-2">
+      <div className="flex items-center justify-between mt-2 gap-1">
         <div
           className="text-xs text-slate-500 flex flex-wrap
         items-center gap-1"
