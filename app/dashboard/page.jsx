@@ -219,7 +219,7 @@ const Home = () => {
         }}
         ariaHideApp={false}
         className="w-[40%] max-h-3/4 rounded-md mx-auto mt-14 p-5
-        bg-white"
+        bg-white max-xl:w-[50%] max-lg:w-[70%] max-sm:w-[90%]"
       >
         <AddEditNotes
           type={openAddEditModal.type}
