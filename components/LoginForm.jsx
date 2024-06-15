@@ -57,7 +57,7 @@ const LoginForm = () => {
   return (
     <div className="flex items-center justify-center mt-28 max-sm:mt-20">
       <p
-        className="absolute bottom-3 right-3 text-xs text-primary
+        className="fixed bottom-3 right-3 text-xs text-primary
       p-2 bg-white rounded w-[300px] max-sm:left-1/2 max-sm:transform 
       max-sm:-translate-x-1/2"
       >
