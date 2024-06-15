@@ -74,7 +74,7 @@ const SignUpForm = () => {
       max-sm:-translate-x-1/2"
       >
         <span className="font-bold">
-          "An unexpected error occured. Please try again."
+          &ldquo;An unexpected error occured. Please try again.&rdquo;
         </span>
         <br />
         - The App is being hosted on free service &apos;Render&apos; hence the
