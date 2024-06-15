@@ -67,20 +67,7 @@ const SignUpForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center mt-28 max-sm:mt-16">
-      <p
-        className="fixed bottom-3 right-3 text-xs text-primary
-      p-2 bg-white rounded w-[300px] max-sm:left-1/2 max-sm:transform 
-      max-sm:-translate-x-1/2"
-      >
-        <span className="font-bold">
-          &ldquo;An unexpected error occured. Please try again.&rdquo;
-        </span>
-        <br />
-        - The App is being hosted on free service &apos;Render&apos; hence the
-        requests are slow sometimes. <br />- If above error occurs please
-        refresh the page few times and try again.
-      </p>
+    <div className="flex items-center justify-center mt-28">
       <div className="w-96 border shadow rounded bg-white px-7 py-10">
         <form onSubmit={handleSignUp}>
           <h4 className="text-2xl text-center mb-7">SignUp</h4>
