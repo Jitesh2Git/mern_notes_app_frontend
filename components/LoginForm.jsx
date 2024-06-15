@@ -65,9 +65,9 @@ const LoginForm = () => {
           "An unexpected error occured. Please try again."
         </span>
         <br />
-        - The App is being hosted on free service 'Render' hence the requests
-        are slow sometimes. <br />- If above error occurs please refresh the
-        page few times and try again.
+        - The App is being hosted on free service &apos;Render&apos; hence the
+        requests are slow sometimes. <br />- If above error occurs please
+        refresh the page few times and try again.
       </p>
       <div
         className="w-96 border shadow rounded bg-white 
