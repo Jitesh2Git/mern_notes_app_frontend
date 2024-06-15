@@ -61,6 +61,32 @@ const SignUpForm = () => {
       ) {
         setError(error.response.data.message);
       } else {
+        toast(
+          (t) => (
+            <div className="flex flex-col text-xs text-primary">
+              <p className="text-justify">
+                <span className="font-bold">
+                  &ldquo;An unexpected error occurred. Please try again.&rdquo;
+                </span>{" "}
+                <br />- The App is being hosted on free service
+                &apos;Render&apos; hence the requests are slow sometimes. <br />
+                - Please refresh the page a few times and try again.
+                <br />
+              </p>
+              <div className="flex justify-end">
+                <button
+                  className="p-2 bg-primary text-white rounded"
+                  onClick={() => toast.dismiss(t.id)}
+                >
+                  Dismiss
+                </button>
+              </div>
+            </div>
+          ),
+          {
+            duration: Infinity,
+          }
+        );
         setError("An unexpected error occured. Please try again.");
       }
     }
